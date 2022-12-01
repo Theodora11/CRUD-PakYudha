@@ -29,7 +29,7 @@ if(isset ($_POST['tekan'])){
 </head>
 <body>
     <h1>ubah data siswa</h1>
-    <form action="index.php" method="POST" enctype="multipart/form-data">
+    <form action="" method="POST" enctype="multipart/form-data">
         <input type="hidden" name="id" value="<?=$sws['id'];?>">
         <input type="hidden" name="gambarlama" value="<?=$sws['gambar'];?>">
         <ul>
